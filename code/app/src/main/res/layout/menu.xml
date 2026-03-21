@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/menback"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_realtime_data"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:text="数据实时查看"
+            android:backgroundTint="#4CAF50"
+            />
+
+        <Button
+            android:id="@+id/btn_history_data"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:text="查询数据"
+            android:backgroundTint="#4CAF50"
+             />
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_device_control"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:text="出场数据查询"-->
+<!--            android:backgroundTint="#4CAF50" />-->
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+<!--            android:backgroundTint="#E91E63"-->
+<!--            android:backgroundTint="#00BCD4"-->
+<!--            android:backgroundTint="#FFC107"-->
+<!--            -->
+<!--        </TextView>-->
+
+
